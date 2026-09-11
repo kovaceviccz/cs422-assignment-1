@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "ping_count": 10,
+    "traceroute_queries_per_hop": 3,
+    "traceroute_wait_seconds": 1.0,
+    "traceroute_max_hops": 30
+  },
+  "q1": {
+    "listed_endpoints": 190,
+    "total_targets_including_own": 191,
+    "own_ip_status": "unresponsive",
+    "ping_status_counts": {
+      "resolution_failed": 1,
+      "success": 185,
+      "unresponsive": 5
+    },
+    "plotted_targets": 185
+  },
+  "q2": {
+    "attempted_destinations": 9,
+    "selected": [
+      {
+        "destination_hop": 14,
+        "final_rtt_ms": 122.698,
+        "hidden_hops": 1,
+        "negative_increments_clamped": 6,
+        "resolved_ip": "193.106.164.10"
+      },
+      {
+        "destination_hop": 17,
+        "final_rtt_ms": 103.985,
+        "hidden_hops": 1,
+        "negative_increments_clamped": 10,
+        "resolved_ip": "96.45.42.156"
+      },
+      {
+        "destination_hop": 24,
+        "final_rtt_ms": 306.775,
+        "hidden_hops": 1,
+        "negative_increments_clamped": 12,
+        "resolved_ip": "23.249.58.14"
+      },
+      {
+        "destination_hop": 23,
+        "final_rtt_ms": 59.123,
+        "hidden_hops": 3,
+        "negative_increments_clamped": 10,
+        "resolved_ip": "45.86.208.131"
+      },
+      {
+        "destination_hop": 19,
+        "final_rtt_ms": 104.12,
+        "hidden_hops": 2,
+        "negative_increments_clamped": 9,
+        "resolved_ip": "178.215.228.109"
+      }
+    ],
+    "successful_destinations": 5
+  }
+}
